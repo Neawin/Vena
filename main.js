@@ -8,3 +8,9 @@ let body = selectElement('body');
 menuToggler.addEventListener('click', () => {
   body.classList.toggle('open');
 })
+
+window.sr = ScrollReveal();
+
+sr.reveal(){
+  
+}
